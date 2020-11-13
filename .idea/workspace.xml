@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c115ab6-3151-47d1-a9f9-3b7dff53b79d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\tools\maven_jar" />
+        <option name="mavenHome" value="C:/tools/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\tools\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="jdk-1.8" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
+  </component>
+  <component name="ProjectId" id="1kEecLLEmGzzdfHEwhSBhBZizL3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c115ab6-3151-47d1-a9f9-3b7dff53b79d" name="Default Changelist" comment="" />
+      <created>1605270255985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605270255985</updated>
+      <workItem from="1605270257745" duration="196000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="311" y="95" key="#Notifications" timestamp="1605270436401">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="311" y="95" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1605270436401" />
+    <state x="311" y="95" key="#Vim_Emulation" timestamp="1605270433151">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="311" y="95" key="#Vim_Emulation/0.0.1536.864@0.0.1536.864" timestamp="1605270433151" />
+    <state width="1085" height="169" key="GridCell.Tab.0.bottom" timestamp="1605270621171">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1085" height="169" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605270621171" />
+    <state width="1085" height="169" key="GridCell.Tab.0.center" timestamp="1605270621171">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1085" height="169" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605270621171" />
+    <state width="1085" height="169" key="GridCell.Tab.0.left" timestamp="1605270621171">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1085" height="169" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605270621171" />
+    <state width="1085" height="169" key="GridCell.Tab.0.right" timestamp="1605270621171">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1085" height="169" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605270621171" />
+    <state x="220" y="79" key="SettingsEditor" timestamp="1605270454429">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="220" y="79" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1605270454429" />
+  </component>
+</project>
