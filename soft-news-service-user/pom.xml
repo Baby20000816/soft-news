@@ -12,6 +12,7 @@
     <artifactId>soft-news-service-user</artifactId>
 
     <dependencies>
+
         <dependency>
             <groupId>com.soft1851</groupId>
             <artifactId>soft-news-service-api</artifactId>
