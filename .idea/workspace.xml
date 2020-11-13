@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c115ab6-3151-47d1-a9f9-3b7dff53b79d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -68,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605270255985</updated>
       <workItem from="1605270257745" duration="196000" />
-      <workItem from="1605270471175" duration="474000" />
+      <workItem from="1605270471175" duration="594000" />
     </task>
     <servers />
   </component>
@@ -84,29 +85,29 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="311" y="95" key="#Vim_Emulation/0.0.1536.864@0.0.1536.864" timestamp="1605270433151" />
-    <state width="1085" height="169" key="GridCell.Tab.0.bottom" timestamp="1605270621171">
+    <state width="1085" height="162" key="GridCell.Tab.0.bottom" timestamp="1605271211418">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1085" height="169" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605270621171" />
-    <state width="1085" height="169" key="GridCell.Tab.0.center" timestamp="1605270621171">
+    <state width="1085" height="162" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605271211418" />
+    <state width="1085" height="162" key="GridCell.Tab.0.center" timestamp="1605271211418">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1085" height="169" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605270621171" />
-    <state width="1085" height="169" key="GridCell.Tab.0.left" timestamp="1605270621171">
+    <state width="1085" height="162" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605271211418" />
+    <state width="1085" height="162" key="GridCell.Tab.0.left" timestamp="1605271211418">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1085" height="169" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605270621171" />
-    <state width="1085" height="169" key="GridCell.Tab.0.right" timestamp="1605270621171">
+    <state width="1085" height="162" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605271211418" />
+    <state width="1085" height="162" key="GridCell.Tab.0.right" timestamp="1605271211418">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1085" height="169" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605270621171" />
+    <state width="1085" height="162" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605271211418" />
     <state x="220" y="79" key="SettingsEditor" timestamp="1605270454429">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="220" y="79" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1605270454429" />
-    <state x="356" y="0" key="new project wizard" timestamp="1605270920440">
+    <state x="155" y="0" key="new project wizard" timestamp="1605271058800">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="356" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1605270920440" />
+    <state x="155" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1605271058800" />
   </component>
 </project>
