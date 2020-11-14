@@ -2,30 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c115ab6-3151-47d1-a9f9-3b7dff53b79d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/generatorConfig-admin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/generatorConfig-article.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/generatorConfig-user.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/java/com/soft1851/admin/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/java/com/soft1851/my/mapper/MyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/java/com/soft1851/mybatis/utils/AdminGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/java/com/soft1851/mybatis/utils/ArticleGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/java/com/soft1851/mybatis/utils/UserGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/java/com/soft1851/pojo/AdminUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/java/com/soft1851/pojo/AppUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/java/com/soft1851/pojo/Comments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/java/com/soft1851/pojo/Fans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/java/com/soft1851/user/mapper/AppUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/java/com/soft1851/user/mapper/FansMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/resources/mapper/admin/AdminUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/resources/mapper/article/CommentsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/resources/mapper/user/AppUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-generator-database/src/main/resources/mapper/user/FansMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/AppUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/Fans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/my/mapper/MyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/mapper/AppUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/mapper/FansMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/mapper/AppUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/mapper/FansMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UsersAngelDocumentsplay-codesoft-newssoft-news-service-user/service-user.2020-11-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/UsersAngelDocumentsplay-codesoft-newssoft-news-service-user/service-user.2020-11-14.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsersAngelDocumentsplay-codesoft-newssoft-news-service-user/service-user.2020-11-14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/user/HelloControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/user/UserControllerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/controller/user/HelloControllerApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/logback-spring.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Tag Library Descriptor" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -100,6 +103,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-generator-database/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -114,6 +118,10 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.soft1851.user.mapper" />
+      <recent name="com.soft1851.pojo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\uniapp\music\soft-news\soft-news-service-user\src\main\resources" />
     </key>
@@ -124,7 +132,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.AdminGenerator">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="AdminGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1851.mybatis.utils.AdminGenerator" />
       <module name="mybatis-generator-database" />
@@ -179,16 +187,16 @@
     </configuration>
     <list>
       <item itemvalue="Application.ArticleGenerator" />
-      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Application.UserGenerator" />
       <item itemvalue="Application.AdminGenerator" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Application.AdminGenerator" />
         <item itemvalue="Application.ArticleGenerator" />
         <item itemvalue="Application.UserGenerator" />
-        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +217,8 @@
       <workItem from="1605270471175" duration="5328000" />
       <workItem from="1605277654687" duration="686000" />
       <workItem from="1605279171480" duration="616000" />
-      <workItem from="1605339619873" duration="2823000" />
+      <workItem from="1605339619873" duration="6510000" />
+      <workItem from="1605346216995" duration="1238000" />
     </task>
     <servers />
   </component>
@@ -221,10 +230,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="311" y="95" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1605270436401" />
-    <state x="361" y="90" key="#Project_Structure" timestamp="1605274417164">
+    <state x="361" y="90" key="#Project_Structure" timestamp="1605346470973">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="90" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1605274417164" />
+    <state x="361" y="90" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1605346470973" />
     <state x="311" y="95" key="#Vim_Emulation" timestamp="1605270433151">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -233,6 +242,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1605342183111" />
+    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1605347430233">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1605347430233" />
     <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605272788200">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -241,38 +254,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605341054679" />
-    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1605342249109">
+    <state width="1493" height="296" key="GridCell.Tab.0.bottom" timestamp="1605347539173">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605342249109" />
-    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1605342249109">
+    <state width="1493" height="296" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605347539173" />
+    <state width="1493" height="296" key="GridCell.Tab.0.center" timestamp="1605347539173">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605342249109" />
-    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1605342249109">
+    <state width="1493" height="296" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605347539173" />
+    <state width="1493" height="296" key="GridCell.Tab.0.left" timestamp="1605347539173">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605342249109" />
-    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1605342249109">
+    <state width="1493" height="296" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605347539173" />
+    <state width="1493" height="296" key="GridCell.Tab.0.right" timestamp="1605347539173">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605342249109" />
-    <state width="1493" height="220" key="GridCell.Tab.1.bottom" timestamp="1605341699446">
+    <state width="1493" height="296" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605347539173" />
+    <state width="1493" height="296" key="GridCell.Tab.1.bottom" timestamp="1605347539173">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605341699446" />
-    <state width="1493" height="220" key="GridCell.Tab.1.center" timestamp="1605341699445">
+    <state width="1493" height="296" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605347539173" />
+    <state width="1493" height="296" key="GridCell.Tab.1.center" timestamp="1605347539173">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1605341699445" />
-    <state width="1493" height="220" key="GridCell.Tab.1.left" timestamp="1605341699445">
+    <state width="1493" height="296" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1605347539173" />
+    <state width="1493" height="296" key="GridCell.Tab.1.left" timestamp="1605347539173">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1605341699445" />
-    <state width="1493" height="220" key="GridCell.Tab.1.right" timestamp="1605341699445">
+    <state width="1493" height="296" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1605347539173" />
+    <state width="1493" height="296" key="GridCell.Tab.1.right" timestamp="1605347539173">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1605341699445" />
+    <state width="1493" height="296" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1605347539173" />
     <state x="220" y="79" key="SettingsEditor" timestamp="1605270454429">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
