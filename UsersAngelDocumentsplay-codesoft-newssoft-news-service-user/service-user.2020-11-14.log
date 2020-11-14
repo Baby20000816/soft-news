@@ -125,3 +125,4 @@ java.lang.UnsatisfiedLinkError: C:\tools\apache-tomcat-9.0.33\bin\tcnative-1.dll
 2020-11-14 15:56:46.581 [http-nio-8003-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2020-11-14 15:56:46.587 [http-nio-8003-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
 2020-11-14 15:56:46.604 [http-nio-8003-exec-6] INFO  c.s.user.controller.HelloController - info:hello
+2020-11-14 15:58:05.866 [http-nio-8003-exec-10] INFO  c.s.user.controller.HelloController - info:hello
