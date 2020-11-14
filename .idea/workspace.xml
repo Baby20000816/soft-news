@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c115ab6-3151-47d1-a9f9-3b7dff53b79d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/AppUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/Fans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/my/mapper/MyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/mapper/AppUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/mapper/FansMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/mapper/AppUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/mapper/FansMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/config/Swagger2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UsersAngelDocumentsplay-codesoft-newssoft-news-service-user/service-user.2020-11-14.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/user/HelloControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/user/UserControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/controller/user/HelloControllerApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/application-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/user/UserControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/user/UserControllerApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +195,7 @@
       <workItem from="1605277654687" duration="686000" />
       <workItem from="1605279171480" duration="616000" />
       <workItem from="1605339619873" duration="6510000" />
-      <workItem from="1605346216995" duration="1238000" />
+      <workItem from="1605346216995" duration="1738000" />
     </task>
     <servers />
   </component>
