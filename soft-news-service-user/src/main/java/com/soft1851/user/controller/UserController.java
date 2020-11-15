@@ -4,6 +4,7 @@ import com.soft1851.api.controller.user.UserControllerApi;
 import com.soft1851.pojo.AppUser;
 import com.soft1851.result.GraceResult;
 import com.soft1851.user.mapper.AppUserMapper;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import tk.mybatis.mapper.entity.Example;
 
@@ -27,4 +28,5 @@ public class UserController implements UserControllerApi {
         AppUser user = appUserMapper.selectOneByExample(userExample);
         return GraceResult.ok(user);
     }
+
 }
