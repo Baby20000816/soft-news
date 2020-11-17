@@ -3,12 +3,15 @@ package com.soft1851.user.controller;
 import com.soft1851.api.BaseController;
 import com.soft1851.api.controller.user.UserControllerApi;
 import com.soft1851.pojo.AppUser;
+import com.soft1851.pojo.Fans;
 import com.soft1851.pojo.bo.UpdateUserInfoBO;
 import com.soft1851.pojo.vo.AppUserVO;
 import com.soft1851.pojo.vo.UserAccountInfoVo;
 import com.soft1851.result.GraceResult;
 import com.soft1851.result.ResponseStatusEnum;
 import com.soft1851.user.mapper.AppUserMapper;
+import com.soft1851.user.mapper.FansMapper;
+import com.soft1851.user.service.FanService;
 import com.soft1851.user.service.UserService;
 import com.soft1851.utils.JsonUtil;
 import lombok.RequiredArgsConstructor;
@@ -28,6 +31,10 @@ public class UserController extends BaseController implements UserControllerApi 
     private final UserService userService;
     @Resource
     private AppUserMapper appUserMapper;
+
+    private final FanService fanService;
+    @Resource
+    private FansMapper fansMapper;
 
     @Override
     public GraceResult getAllUsers() {
@@ -65,6 +72,19 @@ public class UserController extends BaseController implements UserControllerApi 
         AppUserVO userVO = new AppUserVO();
         BeanUtils.copyProperties(user,userVO);
         return GraceResult.ok(userVO);
+    }
+
+    @Override
+    public GraceResult getFansFollow(String writerId) {
+        String fansJson = redis.get("粉丝:"+writerId);
+        Fans fans;
+        if (StringUtils.isNotBlank(fansJson)){
+            fans = JsonUtil.jsonToPojo(fansJson,Fans.class);
+        }else {
+            fans = fanService.getFans(writerId);
+            redis.set("粉丝:" + writerId, JsonUtil.objectToJson(fans), 1);
+        }
+        return GraceResult.ok(fans);
     }
 
     private AppUser getUser(String userId){
