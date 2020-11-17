@@ -23,5 +23,4 @@ public class UserAccountInfoVo {
     private String province;
     private String city;
     private String district;
-    private Date createdTime;
 }
