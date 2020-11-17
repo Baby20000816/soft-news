@@ -40,9 +40,9 @@ public class Swagger2 {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("新闻·自媒体接口api")
-                .contact(new Contact("mqxu",
+                .contact(new Contact("wjh",
                         "http://www.sn.com",
-                        "16422802@qq.com"))
+                        "1273163614@qq.com"))
                 .description("专为新闻·自媒体平台提供的api文档")
                 .version("1.0.1")
                 .termsOfServiceUrl("https://www.sn.com")

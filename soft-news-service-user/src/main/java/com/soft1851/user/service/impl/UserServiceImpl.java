@@ -9,8 +9,10 @@ import com.soft1851.user.mapper.AppUserMapper;
 import com.soft1851.user.service.UserService;
 import com.soft1851.utils.DateUtil;
 import com.soft1851.utils.DesensitizationUtil;
+import com.soft1851.utils.JsonUtil;
 import com.soft1851.utils.RedisOperator;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,15 +22,16 @@ import tk.mybatis.mapper.entity.Example;
 import javax.annotation.Resource;
 import java.util.Date;
 
+import static jdk.nashorn.internal.runtime.regexp.joni.Config.log;
+
+@Slf4j
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class UserServiceImpl implements UserService {
     public final AppUserMapper appUserMapper;
     public final RedisOperator redis;
-
     @Resource
     private Sid sid;
-
     public static final String REDIS_USER_INFO = "redis_user_info";
     private static final String USER_FACE0 = "https://niit-soft.oss-cn-hangzhou.aliyuncs.com/avatar/8.jpg";
     @Override
@@ -38,7 +41,6 @@ public class UserServiceImpl implements UserService {
         userCriteria.andEqualTo("mobile",mobile);
         return appUserMapper.selectOneByExample(userExample);
     }
-
     @Transactional(rollbackFor = Exception.class)
     @Override
     public AppUser createUser(String mobile) {
@@ -57,12 +59,11 @@ public class UserServiceImpl implements UserService {
         appUserMapper.insert(user);
         return user;
     }
-
     @Override
     public AppUser getUser(String userId) {
+        log.info("从数据库获取信息");
         return appUserMapper.selectByPrimaryKey(userId);
     }
-
     @Transactional(rollbackFor = Exception.class)
     @Override
     public void updateUserInfo(UpdateUserInfoBO updateUserInfoBO) {
@@ -75,6 +76,9 @@ public class UserServiceImpl implements UserService {
         {
             GraceException.display(ResponseStatusEnum.USER_UPDATE_ERROR);
         }
+        String userId = updateUserInfoBO.getId();
+        AppUser user = getUser(userId);
+        redis.set(REDIS_USER_INFO+":"+userId, JsonUtil.objectToJson(user));
     }
 
 //    @Override
