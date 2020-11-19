@@ -2,34 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c115ab6-3151-47d1-a9f9-3b7dff53b79d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/files/FileUploadControllerApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-files/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-files/soft-news-service-files.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/java/com/soft1851/files/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/java/com/soft1851/files/controller/FileUploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/java/com/soft1851/files/resource/FileResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/java/com/soft1851/files/service/UploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/java/com/soft1851/files/service/impl/UploadServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/resources/file-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/resources/file-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-common/target/soft-news-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/soft-news-common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-model/target/soft-news-model.jar" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-model/target/soft-news-model.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/soft-news-service-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/soft-news-service-api.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/soft-news-service-user.jar" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/soft-news-service-user.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/files/FileUploadControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/files/FileUploadControllerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/controller/files/FileUploadControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/controller/files/FileUploadControllerApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-files/src/main/java/com/soft1851/files/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/java/com/soft1851/files/controller/FileUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-files/src/main/java/com/soft1851/files/service/UploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/java/com/soft1851/files/service/UploadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-files/src/main/java/com/soft1851/files/service/impl/UploadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/java/com/soft1851/files/service/impl/UploadServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-files/src/main/resources/file-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/resources/file-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-files/src/main/resources/file-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/src/main/resources/file-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/controller/FileUploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/controller/FileUploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/service/UploadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/service/UploadService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/service/impl/UploadServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/service/impl/UploadServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-files/target/classes/file-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/target/classes/file-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-files/target/classes/file-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/target/classes/file-prod.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +219,8 @@
       <workItem from="1605579092716" duration="14508000" />
       <workItem from="1605604915519" duration="4449000" />
       <workItem from="1605614197280" duration="1729000" />
-      <workItem from="1605764375832" duration="5431000" />
+      <workItem from="1605764375832" duration="6347000" />
+      <workItem from="1605772844960" duration="1072000" />
     </task>
     <servers />
   </component>
@@ -258,10 +244,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1605770745403" />
-    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1605767356101">
+    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1605772366594">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1605767356101" />
+    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1605772366594" />
     <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605272788200">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -270,38 +256,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605341054679" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1605770801684">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1605774007241">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605770801684" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1605770801684">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605774007241" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1605774007241">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605770801684" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1605770801684">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605774007241" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1605774007240">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605770801684" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1605770801684">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605774007240" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1605774007241">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605770801684" />
-    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1605770801684">
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605774007241" />
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1605774007241">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605770801684" />
-    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1605770801684">
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605774007241" />
+    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1605774007241">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1605770801684" />
-    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1605770801684">
+    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1605774007241" />
+    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1605774007241">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1605770801684" />
-    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1605770801684">
+    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1605774007241" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1605774007241">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1605770801684" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1605774007241" />
     <state x="220" y="79" key="SettingsEditor" timestamp="1605270454429">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

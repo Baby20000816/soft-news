@@ -12,6 +12,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @RestController
 @Slf4j
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
@@ -45,5 +48,39 @@ public class FileUploadController implements FileUploadControllerApi {
             return GraceResult.errorCustom(ResponseStatusEnum.FILE_UPLOAD_FAILD);
         }
         return GraceResult.ok(finalPath);
+    }
+
+    @Override
+    public GraceResult uploadSomeFiles(String userId, MultipartFile[] files) throws Exception {
+        List<String> imageUrlList = new ArrayList<>();
+        if (files!=null&&files.length>0){
+            for (MultipartFile file:files){
+                String path;
+                if (file!=null){
+                    String fileName = file.getOriginalFilename();
+                    if (StringUtils.isNotBlank(fileName)){
+                        String[] fileNameArr = fileName.split("\\.");
+                        String suffix = fileNameArr[fileNameArr.length-1];
+                        if (!"png".equalsIgnoreCase(suffix) &&
+                                !"jpg".equalsIgnoreCase(suffix) &&
+                                !"jpeg".equalsIgnoreCase(suffix)
+                        ){
+                            continue;
+                        }
+                        path = uploadService.uploadOSS(file,userId,suffix);
+                    }else {
+                        continue;
+                    }
+                }else {
+                    continue;
+                }
+                String finalPath;
+                if (StringUtils.isNotBlank(path)){
+                    finalPath = fileResource.getOssHost()+path;
+                    imageUrlList.add(finalPath);
+                }
+            }
+        }
+        return GraceResult.ok(imageUrlList);
     }
 }
