@@ -99,8 +99,6 @@
             <artifactId>aliyun-java-sdk-green</artifactId>
             <version>3.5.1</version>
         </dependency>
-
-        <!--fastjson-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>

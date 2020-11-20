@@ -2,9 +2,11 @@ org\n3r\idworker\Id.class
 org\n3r\idworker\strategy\DefaultRandomCodeStrategy.class
 org\n3r\idworker\utils\HttpReq.class
 com\soft1851\exception\MyCustomException.class
+com\soft1851\utils\extend\AliImageReviewUtil.class
 com\soft1851\utils\extend\AliyunResource.class
 org\n3r\idworker\Code.class
 org\n3r\idworker\strategy\FileLock.class
+com\soft1851\enums\ArticleReviewLevel.class
 META-INF\spring-configuration-metadata.json
 com\soft1851\utils\IpUtil.class
 com\soft1851\utils\DesensitizationUtil.class

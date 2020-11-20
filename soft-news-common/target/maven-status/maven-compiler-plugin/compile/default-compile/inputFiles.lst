@@ -7,6 +7,8 @@ C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\enums\User
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\utils\FileUtil.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\exception\GraceException.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\exception\MyCustomException.java
+C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\utils\extend\AliImageReviewUtil.java
+C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\enums\ArticleReviewLevel.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\InvalidSystemClock.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\strategy\DefaultWorkerIdStrategy.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\Test.java
