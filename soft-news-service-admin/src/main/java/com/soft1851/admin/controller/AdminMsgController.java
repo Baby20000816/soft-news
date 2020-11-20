@@ -3,10 +3,14 @@ package com.soft1851.admin.controller;
 import com.soft1851.admin.service.AdminUserService;
 import com.soft1851.api.BaseController;
 import com.soft1851.api.controller.admin.AdminMsgControllerApi;
+import com.soft1851.exception.GraceException;
 import com.soft1851.pojo.AdminUser;
 import com.soft1851.pojo.bo.AdminLoginBO;
+import com.soft1851.pojo.bo.NewAdminBO;
 import com.soft1851.result.GraceResult;
 import com.soft1851.result.ResponseStatusEnum;
+import lombok.RequiredArgsConstructor;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,9 +20,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.UUID;
 
 @RestController
+@RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class AdminMsgController extends BaseController implements AdminMsgControllerApi {
-    @Autowired
-    private AdminUserService adminUserService;
+    private final AdminUserService adminUserService;
+    
     @Override
     public GraceResult adminLogin(AdminLoginBO adminLoginBO, HttpServletRequest request, HttpServletResponse response) {
         AdminUser admin = adminUserService.queryAdminByUsername(adminLoginBO.getUsername());
@@ -32,6 +37,37 @@ public class AdminMsgController extends BaseController implements AdminMsgContro
         }
         else {
             return GraceResult.errorCustom(ResponseStatusEnum.ADMIN_NOT_EXIT_ERROR);
+        }
+    }
+
+    @Override
+    public GraceResult addNewAdmin(HttpServletRequest request, HttpServletResponse response, NewAdminBO newAdminBO) {
+        if (StringUtils.isBlank(newAdminBO.getImg64())){
+            if (StringUtils.isBlank(newAdminBO.getPassword())||StringUtils.isBlank(newAdminBO.getConfirmPassword())){
+                return GraceResult.errorCustom(ResponseStatusEnum.ADMIN_PASSWORD_NULL_ERROR);
+            }
+        }
+
+        if (StringUtils.isNotBlank(newAdminBO.getPassword())){
+            if (!newAdminBO.getPassword().equalsIgnoreCase(newAdminBO.getConfirmPassword())){
+                return GraceResult.errorCustom(ResponseStatusEnum.ADMIN_PASSWORD_ERROR);
+            }
+        }
+        checkAdminExist(newAdminBO.getUsername());
+        adminUserService.createAdminUser(newAdminBO);
+        return GraceResult.ok();
+    }
+
+    @Override
+    public GraceResult adminIsExist(String username) {
+        checkAdminExist(username);
+        return GraceResult.ok();
+    }
+
+    private void checkAdminExist(String username) {
+        AdminUser admin = adminUserService.queryAdminByUsername(username);
+        if (admin!=null){
+            GraceException.display(ResponseStatusEnum.ADMIN_USERNAME_EXIST_ERROR);
         }
     }
 
