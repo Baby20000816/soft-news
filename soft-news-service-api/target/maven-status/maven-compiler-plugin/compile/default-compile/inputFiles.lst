@@ -3,6 +3,7 @@ C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\c
 C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\files\FileUploadControllerApi.java
 C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\BaseInterceptor.java
 C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\config\InterceptorConfig.java
+C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\admin\AdminMsgControllerApi.java
 C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\my\mapper\MyMapper.java
 C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\aspect\ServiceLogAspect.java
 C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\user\UserControllerApi.java

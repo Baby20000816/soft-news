@@ -1,2 +1,13 @@
+com\soft1851\mybatis\utils\ArticleGenerator.class
+com\soft1851\my\mapper\MyMapper.class
+com\soft1851\user\mapper\AppUserMapper.class
+com\soft1851\pojo\Fans.class
 com\soft1851\admin\mapper\AdminUserMapper.class
 com\soft1851\pojo\AdminUser.class
+com\soft1851\mybatis\utils\UserGenerator.class
+com\soft1851\admin\Application.class
+com\soft1851\pojo\AppUser.class
+com\soft1851\pojo\Comments.class
+com\soft1851\user\mapper\FansMapper.class
+com\soft1851\mybatis\utils\AdminGenerator.class
+com\soft1851\article\mapper\CommentsMapper.class
