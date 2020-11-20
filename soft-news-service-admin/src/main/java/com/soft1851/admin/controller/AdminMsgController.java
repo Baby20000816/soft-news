@@ -91,4 +91,13 @@ public class AdminMsgController extends BaseController implements AdminMsgContro
         PageGridResult result = adminUserService.queryAdminList(page,pageSize);
         return GraceResult.ok(result);
     }
+
+    @Override
+    public GraceResult adminLogout(String adminId, HttpServletRequest request, HttpServletResponse response) {
+        redis.del(REDIS_ADMIN_TOKEN+":"+adminId);
+        deleteCookie(request,response,"aToken");
+        deleteCookie(request,response,"aId");
+        deleteCookie(request,response,"aName");
+        return GraceResult.ok();
+    }
 }
