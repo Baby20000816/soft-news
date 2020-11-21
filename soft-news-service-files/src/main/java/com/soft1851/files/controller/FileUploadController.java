@@ -1,5 +1,6 @@
 package com.soft1851.files.controller;
 
+import com.mongodb.client.gridfs.model.GridFSFile;
 import com.soft1851.api.controller.files.FileUploadControllerApi;
 import com.soft1851.files.resource.FileResource;
 import com.soft1851.files.service.UploadService;
@@ -11,9 +12,16 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.data.mongodb.gridfs.GridFsResource;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.data.mongodb.gridfs.GridFsTemplate;
+
+import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -38,10 +46,10 @@ public class FileUploadController implements FileUploadControllerApi {
                 String[] fileNameArr = fileName.split("\\.");
                 String suffix = fileNameArr[fileNameArr.length-1];
                 if (!"png".equalsIgnoreCase(suffix) &&
-                !"jpg".equalsIgnoreCase(suffix) &&
-                !"jpeg".equalsIgnoreCase(suffix)
+                        !"jpg".equalsIgnoreCase(suffix) &&
+                        !"jpeg".equalsIgnoreCase(suffix)
                 ){return GraceResult.errorCustom(ResponseStatusEnum.FILE_FORMATTER_FAILD);
-            }path = uploadService.uploadFdfs(file,suffix);
+                }path = uploadService.uploadFdfs(file,suffix);
             }else {
                 return GraceResult.errorCustom(ResponseStatusEnum.FILE_UPLOAD_NULL_ERROR);
             }
@@ -127,5 +135,29 @@ public class FileUploadController implements FileUploadControllerApi {
             e.printStackTrace();
         }
         return GraceResult.ok(objectId.toHexString());
+    }
+
+    @Override
+    public GraceResult readInGridFs(String faceId, HttpServletRequest request, HttpServletResponse response) throws Exception {
+        GridFSFile gridFSFile = gridFsTemplate.findOne(Query.query(Criteria.where("_id").is(faceId)));
+        if (gridFSFile == null){
+            throw  new RuntimeException("No file with id:"+faceId);
+        }
+        System.out.println(gridFSFile.getFilename());
+        GridFsResource resource = gridFsTemplate.getResource(gridFSFile);
+        InputStream inputStream;
+        String content = null;
+        byte[] bytes = new byte[(int) gridFSFile.getLength()];
+        try {
+            inputStream = resource.getInputStream();
+            inputStream.read(bytes);
+            inputStream.close();
+            ServletOutputStream outputStream = response.getOutputStream();
+            outputStream.write(bytes);
+            outputStream.close();
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        return GraceResult.ok(new String(bytes));
     }
 }
