@@ -41,4 +41,8 @@ public interface AdminMsgControllerApi {
     @PostMapping("adminLogout")
     @ApiOperation(value = "管理员注销",notes = "管理员注销",httpMethod = "POST")
     GraceResult adminLogout(@RequestParam String adminId,HttpServletRequest request,HttpServletResponse response);
+
+    @PostMapping("updateAdmin")
+    @ApiOperation(value = "修改管理员信息",notes = "修改管理员信息",httpMethod = "POST")
+    GraceResult updateAdmin(HttpServletRequest request,HttpServletResponse response,@RequestBody NewAdminBO newAdminBO);
 }

@@ -100,4 +100,10 @@ public class AdminMsgController extends BaseController implements AdminMsgContro
         deleteCookie(request,response,"aName");
         return GraceResult.ok();
     }
+
+    @Override
+    public GraceResult updateAdmin(HttpServletRequest request, HttpServletResponse response, NewAdminBO newAdminBO) {
+        adminUserService.updateAdmin(newAdminBO.getUsername(),newAdminBO.getFaceId());
+        return GraceResult.ok(newAdminBO);
+    }
 }

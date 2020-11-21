@@ -11,4 +11,6 @@ public interface AdminUserService {
     void createAdminUser(NewAdminBO newAdminBO);
 
     PageGridResult queryAdminList(Integer page, Integer pageSize);
+
+    void updateAdmin(String username,String faceId);
 }
