@@ -10,6 +10,7 @@ C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\c
 C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\UserActiveInterceptor.java
 C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\HelloControllerApi.java
 C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\UserTokenInterceptor.java
+C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\interceptors\AdminTokenInterceptor.java
 C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\BaseController.java
 C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\config\CorsConfig.java
 C:\uniapp\music\soft-news\soft-news-service-api\src\main\java\com\soft1851\api\controller\user\PassportControllerApi.java

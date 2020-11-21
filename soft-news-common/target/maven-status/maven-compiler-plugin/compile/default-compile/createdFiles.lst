@@ -34,6 +34,7 @@ com\soft1851\enums\UserStatus.class
 com\soft1851\utils\DateUtil.class
 org\n3r\idworker\utils\Serializes.class
 com\soft1851\utils\SmsUtil.class
+com\soft1851\utils\PageGridResult.class
 org\n3r\idworker\InvalidSystemClock.class
 org\n3r\idworker\utils\Ip.class
 org\n3r\idworker\strategy\DefaultWorkerIdStrategy$2.class

@@ -1,7 +1,9 @@
 com\soft1851\pojo\vo\AppUserVO.class
 com\soft1851\pojo\vo\UserAccountInfoVo$UserAccountInfoVoBuilder.class
+com\soft1851\pojo\bo\NewAdminBO.class
 com\soft1851\pojo\bo\UpdateUserInfoBO.class
 com\soft1851\pojo\AppUser$AppUserBuilder.class
+com\soft1851\pojo\bo\NewAdminBO$NewAdminBOBuilder.class
 com\soft1851\pojo\Fans.class
 com\soft1851\pojo\AdminUser.class
 com\soft1851\pojo\vo\UserAccountInfoVo.class

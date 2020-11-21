@@ -21,7 +21,6 @@ public class CorsConfig {
         config.addAllowedHeader("*");
         UrlBasedCorsConfigurationSource corsSource = new UrlBasedCorsConfigurationSource();
         corsSource.registerCorsConfiguration("/**", config);
-//        return new CorsFilter(corsSource);
         return new CorsFilter(corsSource);
     }
 }
