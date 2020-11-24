@@ -8,4 +8,6 @@ public interface FriendLinkService {
     void saveOrUpdateFriendLink(FriendLinkMO friendLinkMO);
 
     List<FriendLinkMO> queryAllFriendLinkList();
+
+    void delete(String linkId);
 }

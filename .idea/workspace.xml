@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c115ab6-3151-47d1-a9f9-3b7dff53b79d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/soft-news-common/src/main/java/com/soft1851/utils/UrlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/bo/SaveFriendLinkBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/mo/FriendLinkMO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/validate/CheckUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/validate/CheckUrlValidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/controller/FriendLinkController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/repository/FriendLinkRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/service/FriendLinkService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/service/impl/FriendLinkServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/admin/FriendLinkControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-article/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-article/soft-news-service-article.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/controller/FriendLinkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/controller/FriendLinkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/service/FriendLinkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/service/FriendLinkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/service/impl/FriendLinkServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/service/impl/FriendLinkServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-admin/target/classes/com/soft1851/admin/controller/FriendLinkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-admin/target/classes/com/soft1851/admin/controller/FriendLinkController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-admin/target/classes/com/soft1851/admin/service/FriendLinkService.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-admin/target/classes/com/soft1851/admin/service/FriendLinkService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-admin/target/classes/com/soft1851/admin/service/impl/FriendLinkServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-admin/target/classes/com/soft1851/admin/service/impl/FriendLinkServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/admin/FriendLinkControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/admin/FriendLinkControllerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/controller/admin/FriendLinkControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/controller/admin/FriendLinkControllerApi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +97,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="D:/advanced-study/soft-news" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/soft-news-service-article/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -253,7 +258,7 @@
       <workItem from="1606132615551" duration="9595000" />
       <workItem from="1606175769324" duration="1576000" />
       <workItem from="1606177768047" duration="711000" />
-      <workItem from="1606179320729" duration="3515000" />
+      <workItem from="1606179320729" duration="4362000" />
     </task>
     <servers />
   </component>
@@ -265,10 +270,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="311" y="95" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1605270436401" />
-    <state x="361" y="90" key="#Project_Structure" timestamp="1605855406701">
+    <state x="361" y="90" key="#Project_Structure" timestamp="1606187639919">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="90" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1605855406701" />
+    <state x="361" y="90" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1606187639919" />
     <state x="311" y="95" key="#Vim_Emulation" timestamp="1605270433151">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -277,10 +282,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1606138335426" />
-    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1606186971265">
+    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1606187217849">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1606186971265" />
+    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1606187217849" />
     <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605272788200">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -289,38 +294,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606179412417" />
-    <state width="1493" height="238" key="GridCell.Tab.0.bottom" timestamp="1606187007289">
+    <state width="1493" height="238" key="GridCell.Tab.0.bottom" timestamp="1606187238783">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606187007289" />
-    <state width="1493" height="238" key="GridCell.Tab.0.center" timestamp="1606187007287">
+    <state width="1493" height="238" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606187238783" />
+    <state width="1493" height="238" key="GridCell.Tab.0.center" timestamp="1606187238783">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606187007287" />
-    <state width="1493" height="238" key="GridCell.Tab.0.left" timestamp="1606187007285">
+    <state width="1493" height="238" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606187238783" />
+    <state width="1493" height="238" key="GridCell.Tab.0.left" timestamp="1606187238783">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606187007285" />
-    <state width="1493" height="238" key="GridCell.Tab.0.right" timestamp="1606187007288">
+    <state width="1493" height="238" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606187238783" />
+    <state width="1493" height="238" key="GridCell.Tab.0.right" timestamp="1606187238783">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606187007288" />
-    <state width="1493" height="238" key="GridCell.Tab.1.bottom" timestamp="1606187007290">
+    <state width="1493" height="238" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606187238783" />
+    <state width="1493" height="238" key="GridCell.Tab.1.bottom" timestamp="1606187238783">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606187007290" />
-    <state width="1493" height="238" key="GridCell.Tab.1.center" timestamp="1606187007289">
+    <state width="1493" height="238" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606187238783" />
+    <state width="1493" height="238" key="GridCell.Tab.1.center" timestamp="1606187238783">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1606187007289" />
-    <state width="1493" height="238" key="GridCell.Tab.1.left" timestamp="1606187007289">
+    <state width="1493" height="238" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1606187238783" />
+    <state width="1493" height="238" key="GridCell.Tab.1.left" timestamp="1606187238783">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1606187007289" />
-    <state width="1493" height="238" key="GridCell.Tab.1.right" timestamp="1606187007289">
+    <state width="1493" height="238" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1606187238783" />
+    <state width="1493" height="238" key="GridCell.Tab.1.right" timestamp="1606187238783">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="238" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1606187007289" />
+    <state width="1493" height="238" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1606187238783" />
     <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1606178079268">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -333,10 +338,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="196" key="extract.method.dialog/0.0.1536.864@0.0.1536.864" timestamp="1605973977896" />
-    <state x="155" y="0" key="new project wizard" timestamp="1605850736123">
+    <state x="155" y="0" key="new project wizard" timestamp="1606187317162">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="155" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1605850736123" />
+    <state x="155" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1606187317162" />
     <state x="511" y="59" key="refactoring.ChangeSignatureDialog" timestamp="1605847739267">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
