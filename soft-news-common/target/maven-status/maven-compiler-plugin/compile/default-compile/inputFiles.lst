@@ -8,6 +8,7 @@ C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\utils\File
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\exception\GraceException.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\exception\MyCustomException.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\utils\extend\AliImageReviewUtil.java
+C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\enums\YesOrNo.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\enums\ArticleReviewLevel.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\InvalidSystemClock.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\strategy\DefaultWorkerIdStrategy.java
@@ -17,12 +18,15 @@ C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\utils\Date
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\utils\IPv4Utils.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\Sid.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\strategy\DayPrefixRandomCodeStrategy.java
+C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\enums\ArticleAppointType.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\Code.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\utils\RedisOperator.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\utils\HttpReq.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\IdWorker.java
+C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\enums\ArticleCoverType.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\result\ResponseStatusEnum.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\result\GraceResult.java
+C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\utils\UrlUtil.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\enums\FaceVerifyType.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\exception\GraceExceptionHandler.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\utils\JsonUtil.java
@@ -31,6 +35,7 @@ C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\utils\Page
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\strategy\FileLock.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\utils\IpUtil.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\RandomCodeStrategy.java
+C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\enums\ArticleReviewStatus.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\DayCode.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\utils\Utils.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\utils\SmsUtil.java

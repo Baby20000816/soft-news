@@ -1,6 +1,10 @@
-com\soft1851\admin\service\AdminUserService.class
+com\soft1851\admin\service\FriendLinkService.class
 com\soft1851\admin\controller\AdminMsgController.class
-com\soft1851\admin\service\impl\AdminUserServerImpl.class
 com\soft1851\admin\AdminApplication.class
-com\soft1851\admin\controller\HelloController.class
+com\soft1851\admin\service\impl\FriendLinkServiceImpl.class
 com\soft1851\admin\mapper\AdminUserMapper.class
+com\soft1851\admin\service\AdminUserService.class
+com\soft1851\admin\repository\FriendLinkRepository.class
+com\soft1851\admin\controller\FriendLinkController.class
+com\soft1851\admin\service\impl\AdminUserServerImpl.class
+com\soft1851\admin\controller\HelloController.class
