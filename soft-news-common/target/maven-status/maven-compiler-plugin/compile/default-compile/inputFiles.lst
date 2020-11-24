@@ -23,6 +23,7 @@ C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\utils\
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\IdWorker.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\result\ResponseStatusEnum.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\result\GraceResult.java
+C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\enums\FaceVerifyType.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\exception\GraceExceptionHandler.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\utils\JsonUtil.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\Id.java
@@ -34,3 +35,4 @@ C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\DayCod
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\utils\Utils.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\utils\SmsUtil.java
 C:\uniapp\music\soft-news\soft-news-common\src\main\java\org\n3r\idworker\WorkerIdStrategy.java
+C:\uniapp\music\soft-news\soft-news-common\src\main\java\com\soft1851\utils\FaceVerifyUtil.java

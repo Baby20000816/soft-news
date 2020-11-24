@@ -35,4 +35,7 @@ public interface FileUploadControllerApi {
     @ApiOperation(value = "从gridFS中读取文件",notes = "从gridFS中读取文件",httpMethod = "GET")
     @GetMapping("readInGridFS")
     GraceResult readInGridFs(@RequestParam String faceId, HttpServletRequest request, HttpServletResponse response) throws Exception;
+
+    @GetMapping("/readFace64")
+    GraceResult readFace64(@RequestParam String faceId,HttpServletRequest request,HttpServletResponse response) throws Exception;
 }

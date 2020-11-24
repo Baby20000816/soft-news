@@ -23,6 +23,7 @@ com\soft1851\utils\RedisOperator.class
 org\n3r\idworker\RandomCodeStrategy.class
 org\n3r\idworker\utils\IPv4Utils.class
 org\n3r\idworker\utils\Props$Silent.class
+com\soft1851\utils\FaceVerifyUtil.class
 com\soft1851\utils\JsonUtil.class
 org\n3r\idworker\WorkerIdStrategy.class
 org\n3r\idworker\utils\Utils.class
@@ -31,6 +32,7 @@ org\n3r\idworker\strategy\DayPrefixRandomCodeStrategy.class
 org\n3r\idworker\IdWorker.class
 org\n3r\idworker\strategy\DefaultWorkerIdStrategy$1.class
 com\soft1851\enums\UserStatus.class
+com\soft1851\enums\FaceVerifyType.class
 com\soft1851\utils\DateUtil.class
 org\n3r\idworker\utils\Serializes.class
 com\soft1851\utils\SmsUtil.class

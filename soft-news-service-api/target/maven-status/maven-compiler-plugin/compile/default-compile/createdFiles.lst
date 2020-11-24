@@ -2,6 +2,7 @@ com\soft1851\api\controller\user\PassportControllerApi.class
 com\soft1851\my\mapper\MyMapper.class
 com\soft1851\api\interceptors\PassportInterceptor.class
 com\soft1851\api\interceptors\UserActiveInterceptor.class
+com\soft1851\api\config\CloudConfig.class
 com\soft1851\api\BaseController.class
 com\soft1851\api\config\CorsConfig.class
 com\soft1851\api\controller\admin\AdminMsgControllerApi.class
