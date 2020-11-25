@@ -28,7 +28,7 @@ public class AliImageReviewUtil {
     private AliyunResource aliyunResource;
     public boolean reviewImage(String imgUrl) throws Exception {
         IClientProfile profile = DefaultProfile
-                .getProfile("cn-shanghai", "你的key", "你的密钥");
+                .getProfile("cn-shanghai", "LTAI4FcUiGZb75XGwiCC7Yzu", "ZX0hbGsO2aOAWUfGJlrL48Tkp0bfFQ");
         DefaultProfile
                 .addEndpoint("cn-shanghai", "cn-shanghai", "Green", "green.cn-shanghai.aliyuncs.com");
         IAcsClient client = new DefaultAcsClient(profile);
