@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c115ab6-3151-47d1-a9f9-3b7dff53b79d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/soft-news-common/src/main/java/com/soft1851/utils/extend/AliTextReviewUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-common/src/main/java/com/soft1851/utils/extend/AliImageReviewUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/src/main/java/com/soft1851/utils/extend/AliImageReviewUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/extend/AliImageReviewUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/extend/AliImageReviewUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/article/ArticleControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/article/ArticleControllerApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/task/TaskPublishArticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/task/TaskPublishArticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/mapper/ArticleMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/mapper/ArticleMapperCustom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/service/impl/ArticleServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +269,7 @@
       <workItem from="1606195345345" duration="1316000" />
       <workItem from="1606209574872" duration="8677000" />
       <workItem from="1606219538698" duration="42000" />
-      <workItem from="1606266723099" duration="5945000" />
+      <workItem from="1606266723099" duration="6434000" />
     </task>
     <servers />
   </component>
@@ -304,10 +297,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1606268979775" />
-    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1606269074000">
+    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1606273635224">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1606269074000" />
+    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1606273635224" />
     <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605272788200">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -316,38 +309,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606179412417" />
-    <state width="1493" height="206" key="GridCell.Tab.0.bottom" timestamp="1606273381618">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1606273858133">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606273381618" />
-    <state width="1493" height="206" key="GridCell.Tab.0.center" timestamp="1606273381617">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606273858133" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1606273858133">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606273381617" />
-    <state width="1493" height="206" key="GridCell.Tab.0.left" timestamp="1606273381617">
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606273858133" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1606273858133">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606273381617" />
-    <state width="1493" height="206" key="GridCell.Tab.0.right" timestamp="1606273381617">
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606273858133" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1606273858133">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606273381617" />
-    <state width="1493" height="206" key="GridCell.Tab.1.bottom" timestamp="1606273381618">
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606273858133" />
+    <state width="1493" height="203" key="GridCell.Tab.1.bottom" timestamp="1606273858133">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606273381618" />
-    <state width="1493" height="206" key="GridCell.Tab.1.center" timestamp="1606273381618">
+    <state width="1493" height="203" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606273858133" />
+    <state width="1493" height="203" key="GridCell.Tab.1.center" timestamp="1606273858133">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1606273381618" />
-    <state width="1493" height="206" key="GridCell.Tab.1.left" timestamp="1606273381618">
+    <state width="1493" height="203" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1606273858133" />
+    <state width="1493" height="203" key="GridCell.Tab.1.left" timestamp="1606273858133">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1606273381618" />
-    <state width="1493" height="206" key="GridCell.Tab.1.right" timestamp="1606273381618">
+    <state width="1493" height="203" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1606273858133" />
+    <state width="1493" height="203" key="GridCell.Tab.1.right" timestamp="1606273858133">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="206" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1606273381618" />
+    <state width="1493" height="203" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1606273858133" />
     <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1606178079268">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
