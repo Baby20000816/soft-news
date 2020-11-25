@@ -4,7 +4,8 @@
     <list default="true" id="7c115ab6-3151-47d1-a9f9-3b7dff53b79d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/article/ArticleControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/article/ArticleControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/service/impl/ArticleServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +270,7 @@
       <workItem from="1606195345345" duration="1316000" />
       <workItem from="1606209574872" duration="8677000" />
       <workItem from="1606219538698" duration="42000" />
-      <workItem from="1606266723099" duration="6434000" />
+      <workItem from="1606266723099" duration="7155000" />
     </task>
     <servers />
   </component>
@@ -297,10 +298,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1606268979775" />
-    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1606273635224">
+    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1606274616333">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1606273635224" />
+    <state x="574" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1606274616333" />
     <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605272788200">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
