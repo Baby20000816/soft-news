@@ -8,4 +8,6 @@ public interface FanService {
     boolean isMeFollowThisWriter(String writerId, String fanId);
 
     public void follow(String writerId,String fanId);
+
+    void unfollow(String writerId,String fanId);
 }
