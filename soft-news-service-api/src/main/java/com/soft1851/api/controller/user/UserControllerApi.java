@@ -36,4 +36,8 @@ public interface UserControllerApi {
     @PostMapping("/fans/follow")
     @ApiOperation(value = "获得粉丝信息",notes = "获得粉丝信息",httpMethod = "POST")
     GraceResult getFansFollow(@RequestParam String writerId);
+
+    @ApiOperation(value = "根据用户的ids查询用户列表",notes = "根据用户的ids查询用户列表",httpMethod = "GET")
+    @GetMapping("/queryByIds")
+    GraceResult queryByIds(@RequestParam String userIds);
 }

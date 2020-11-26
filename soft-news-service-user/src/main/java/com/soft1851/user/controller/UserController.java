@@ -23,6 +23,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import javax.validation.Valid;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -97,6 +99,32 @@ public class UserController extends BaseController implements UserControllerApi 
             redis.set(REDIS_USER_INFO+":"+userId,JsonUtil.objectToJson(user),1);
         }
         return user;
+    }
+
+    @Override
+    public GraceResult queryByIds(String userIds) {
+        if (StringUtils.isBlank(userIds))
+        {
+            System.out.println("这里错了");
+            return GraceResult.errorCustom(ResponseStatusEnum.USER_NOT_EXIST_ERROR);
+
+        }
+        List<AppUserVO> publisherList = new ArrayList<>();
+        List<String> userIdList = JsonUtil.jsonToList(userIds, String.class);
+        assert userIdList != null;
+        for (String userId : userIdList){
+            AppUserVO userVO = getBasicUserInfo(userId);
+            publisherList.add(userVO);
+        }
+        System.out.println("这里");
+        return GraceResult.ok(publisherList);
+    }
+
+    private AppUserVO getBasicUserInfo(String userId) {
+        AppUser user = getUser(userId);
+        AppUserVO userVO = new AppUserVO();
+        BeanUtils.copyProperties(user,userVO);
+        return userVO;
     }
 
 

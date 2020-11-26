@@ -6,25 +6,33 @@ import com.soft1851.article.service.ArticleService;
 import com.soft1851.enums.ArticleCoverType;
 import com.soft1851.enums.ArticleReviewStatus;
 import com.soft1851.enums.YesOrNo;
+//import com.soft1851.pojo.AppUser;
+import com.soft1851.pojo.AppUser;
 import com.soft1851.pojo.Category;
 import com.soft1851.pojo.bo.NewArticleBO;
+import com.soft1851.pojo.vo.AppUserVO;
+import com.soft1851.pojo.vo.ArticleDetailVO;
 import com.soft1851.result.GraceResult;
 import com.soft1851.result.ResponseStatusEnum;
 import com.soft1851.utils.JsonUtil;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
+import javax.annotation.Resource;
 import javax.validation.Valid;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @RestController
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class ArticleController extends BaseController implements ArticleControllerApi {
     private final ArticleService articleService;
+    private final RestTemplate restTemplate;
     @Override
     public GraceResult createArticle(@Valid NewArticleBO newArticleBO, BindingResult result) {
         System.out.println(newArticleBO);
@@ -86,5 +94,45 @@ public class ArticleController extends BaseController implements ArticleControll
     public GraceResult withdraw(String userId, String articleId) {
         articleService.withdrawArticle(userId, articleId);
         return GraceResult.ok();
+    }
+
+    private List<AppUserVO> getPublisherList(Set<String> idSet) {
+        String userServerUrlExecute = "http://user.sn.com:8003/user/queryByIds?userIds=" + JsonUtil.objectToJson(idSet);
+        ResponseEntity<GraceResult> responseEntity
+                = restTemplate.getForEntity(userServerUrlExecute, GraceResult.class);
+        GraceResult bodyResult = responseEntity.getBody();
+        List<AppUserVO> publisherList = null;
+        assert bodyResult != null;
+        if (bodyResult.getStatus() == 200) {
+            String userJson = JsonUtil.objectToJson(bodyResult.getData());
+            publisherList = JsonUtil.jsonToList(userJson, AppUserVO.class);
+        }
+        return publisherList;
+    }
+    /**
+     * 从redis根据key读取阅读量
+     *
+     * @param key key
+     * @return value
+     */
+    private Integer getCountsFromRedis(String key) {
+        String countsStr = redis.get(key);
+        if (StringUtils.isBlank(countsStr)) {
+            countsStr = "0";
+        }
+        return Integer.valueOf(countsStr);
+    }
+
+    @Override
+    public GraceResult detail(String articleId) {
+        ArticleDetailVO detailVO = articleService.queryDetail(articleId);
+        Set<String> idSet = new HashSet<>();
+        idSet.add(detailVO.getPublishUserId());
+        List<AppUserVO> publisherList = getPublisherList(idSet);
+        if (!publisherList.isEmpty()){
+            detailVO.setPublishUserName(publisherList.get(0).getNickname());
+        }
+        detailVO.setReadCounts(getCountsFromRedis(REDIS_ARTICLE_READ_COUNTS+":"+articleId));
+        return GraceResult.ok(detailVO);
     }
 }

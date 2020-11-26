@@ -1,5 +1,6 @@
 package com.soft1851.pojo.vo;
 
+import com.soft1851.pojo.AppUser;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,4 +17,5 @@ public class AppUserVO {
     private Integer activeStatus;
     private Integer myFollowCounts;
     private Integer myFansCounts;
+    private AppUser user;
 }

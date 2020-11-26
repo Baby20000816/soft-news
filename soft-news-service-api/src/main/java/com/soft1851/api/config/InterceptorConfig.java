@@ -32,7 +32,7 @@ public class InterceptorConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry){
         registry.addInterceptor(passportInterceptor()).addPathPatterns("/passport/smsCode");
-        registry.addInterceptor(userTokenInterceptor()).addPathPatterns("/user/userBaseInfo").addPathPatterns("/user/updateUserInfo");
+//        registry.addInterceptor(userTokenInterceptor()).addPathPatterns("/user/userBaseInfo").addPathPatterns("/user/updateUserInfo");
 //        registry.addInterceptor(userActiveInterceptor()).addPathPatterns("/user/fans/follow");
         registry.addInterceptor(adminTokenInterceptor()).addPathPatterns("/adminMsg/adminIsExist");
     }

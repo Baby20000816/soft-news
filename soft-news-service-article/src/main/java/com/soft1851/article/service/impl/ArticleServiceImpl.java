@@ -11,10 +11,12 @@ import com.soft1851.exception.GraceException;
 import com.soft1851.pojo.Article;
 import com.soft1851.pojo.Category;
 import com.soft1851.pojo.bo.NewArticleBO;
+import com.soft1851.pojo.vo.ArticleDetailVO;
 import com.soft1851.result.ResponseStatusEnum;
 import com.soft1851.utils.extend.AliTextReviewUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.checkerframework.checker.units.qual.A;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -107,6 +109,19 @@ public class ArticleServiceImpl implements ArticleService {
         if (result!=1){
             GraceException.display(ResponseStatusEnum.ARTICLE_WITHDRAW_ERROR);
         }
+    }
+    @Override
+    public ArticleDetailVO queryDetail(String articleId) {
+        Article article = new Article();
+        article.setId(articleId);
+        article.setIsAppoint(YesOrNo.NO.type);
+        article.setIsDelete(YesOrNo.NO.type);
+        article.setArticleStatus(ArticleReviewStatus.SUCCESS.type);
+        Article result = articleMapper.selectOne(article);
+        ArticleDetailVO detailVO = new ArticleDetailVO();
+        BeanUtils.copyProperties(result, detailVO);
+        detailVO.setCover(result.getArticleCover());
+        return detailVO;
     }
 
     @Transactional(rollbackFor = {Exception.class})

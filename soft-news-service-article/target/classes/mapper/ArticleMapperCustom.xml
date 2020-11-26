@@ -9,6 +9,7 @@
 --         where publish_time = NOW()
         where NOW() >= publish_time
           and is_appoint = 1
+<!--       <![CDATA[ where publish_time <=NOW() and is_appoint =1 ]]>-->
 
     </update>
 
