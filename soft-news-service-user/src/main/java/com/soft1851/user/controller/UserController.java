@@ -122,6 +122,8 @@ public class UserController extends BaseController implements UserControllerApi 
 
     private AppUserVO getBasicUserInfo(String userId) {
         AppUser user = getUser(userId);
+        System.out.println(userId);
+        System.out.println(user);
         AppUserVO userVO = new AppUserVO();
         BeanUtils.copyProperties(user,userVO);
         return userVO;

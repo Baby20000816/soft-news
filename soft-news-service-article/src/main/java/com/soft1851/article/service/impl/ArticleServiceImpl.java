@@ -112,12 +112,21 @@ public class ArticleServiceImpl implements ArticleService {
     }
     @Override
     public ArticleDetailVO queryDetail(String articleId) {
-        Article article = new Article();
-        article.setId(articleId);
-        article.setIsAppoint(YesOrNo.NO.type);
-        article.setIsDelete(YesOrNo.NO.type);
-        article.setArticleStatus(ArticleReviewStatus.SUCCESS.type);
-        Article result = articleMapper.selectOne(article);
+
+//        Article article = new Article();
+//        article.setId(articleId);
+//        article.setIsAppoint(YesOrNo.NO.type);
+//        article.setIsDelete(YesOrNo.NO.type);
+//        article.setArticleStatus(ArticleReviewStatus.SUCCESS.type);
+
+
+        Example example = new Example(Article.class);
+        Example.Criteria criteria = example.createCriteria();
+        criteria.andEqualTo("id", articleId);
+        criteria.andEqualTo("isAppoint", YesOrNo.NO.type);
+        criteria.andEqualTo("isDelete", YesOrNo.NO.type);
+        criteria.andEqualTo("articleStatus", ArticleReviewStatus.SUCCESS.type);
+        Article result = articleMapper.selectOneByExample(example);
         ArticleDetailVO detailVO = new ArticleDetailVO();
         BeanUtils.copyProperties(result, detailVO);
         detailVO.setCover(result.getArticleCover());

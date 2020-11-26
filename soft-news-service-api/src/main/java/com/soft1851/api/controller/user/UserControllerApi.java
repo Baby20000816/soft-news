@@ -17,7 +17,7 @@ public interface UserControllerApi {
      * 获取所有用户
      * @return users: 所有用户信息
      */
-    @ApiOperation(value = "获取所有用户信息",notes = "获取所有用户信息",httpMethod = "POST")
+    @ApiOperation(value = "获取所有用户信息",notes = "获取所有用户信息",httpMethod = "GET")
     @GetMapping("/users")
     GraceResult getAllUsers();
 

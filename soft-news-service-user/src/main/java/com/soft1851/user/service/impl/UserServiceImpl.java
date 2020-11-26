@@ -61,7 +61,6 @@ public class UserServiceImpl implements UserService {
     }
     @Override
     public AppUser getUser(String userId) {
-        log.info("从数据库获取信息");
         return appUserMapper.selectByPrimaryKey(userId);
     }
     @Transactional(rollbackFor = Exception.class)

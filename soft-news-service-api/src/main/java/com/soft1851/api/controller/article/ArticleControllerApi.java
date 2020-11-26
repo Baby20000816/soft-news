@@ -7,6 +7,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
 @Api(value = "文章业务的controller",tags = {"文章业务的controller"})
@@ -27,6 +28,10 @@ public interface ArticleControllerApi {
     @PostMapping("/withdraw")
     @ApiOperation(value = "用户撤回文章",notes = "用户撤回文章",httpMethod = "POST")
     GraceResult withdraw(@RequestParam String userId,@RequestParam String articleId);
+
+    @PostMapping("readArticle")
+    @ApiOperation(value = "阅读文章，累加阅读量",notes = "阅读文章，累加阅读量",httpMethod = "POST")
+    GraceResult readArticle(@RequestParam String articleId, HttpServletRequest request);
 
     @GetMapping("detail")
     @ApiOperation(value = "文章详情查询",notes = "文章详情查询",httpMethod = "GET")

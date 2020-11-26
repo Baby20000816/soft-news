@@ -14,6 +14,7 @@ import com.soft1851.pojo.vo.AppUserVO;
 import com.soft1851.pojo.vo.ArticleDetailVO;
 import com.soft1851.result.GraceResult;
 import com.soft1851.result.ResponseStatusEnum;
+import com.soft1851.utils.IpUtil;
 import com.soft1851.utils.JsonUtil;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
@@ -25,6 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.util.*;
 
@@ -93,6 +95,14 @@ public class ArticleController extends BaseController implements ArticleControll
     @Override
     public GraceResult withdraw(String userId, String articleId) {
         articleService.withdrawArticle(userId, articleId);
+        return GraceResult.ok();
+    }
+
+    @Override
+    public GraceResult readArticle(String articleId, HttpServletRequest request) {
+        String userIp = IpUtil.getRequestIp(request);
+        redis.setnx(REDIS_ALREADY_READ+":"+articleId+":"+userIp,userIp);
+        redis.increment(REDIS_ARTICLE_READ_COUNTS+":"+articleId,1);
         return GraceResult.ok();
     }
 
