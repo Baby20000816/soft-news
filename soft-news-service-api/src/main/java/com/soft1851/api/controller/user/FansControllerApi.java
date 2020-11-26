@@ -21,4 +21,12 @@ public interface FansControllerApi {
     @PostMapping("/unfollow")
     @ApiOperation(value = "取消关注，减少粉丝",notes = "取消关注，减少粉丝",httpMethod = "POST")
     GraceResult unfollow(@RequestParam String writerId,@RequestParam String fanId);
+
+    @PostMapping("/queryRatio")
+    @ApiOperation(value = "查询男女粉丝数量",notes = "查询男女粉丝数量",httpMethod = "POST")
+    GraceResult queryRatio(@RequestParam String writerId);
+
+    @PostMapping("/queryRatioByRegion")
+    @ApiOperation(value = "根据地域查询粉丝数量",notes = "根据地域查询粉丝数量",httpMethod = "POST")
+    GraceResult queryRatioByRegion(@RequestParam String writerId);
 }
